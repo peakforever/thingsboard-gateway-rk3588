@@ -1,4 +1,4 @@
 **/node_modules/
-**/_pycache_/
+**/__pycache__/
 .obsidian/
 *.log
