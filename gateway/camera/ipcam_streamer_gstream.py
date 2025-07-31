@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 GST_COMMAND = [
     "gst-launch-1.0",
-    "rtspsrc", "location=rtsp://admin:password@192.168.3.27:554/stream1", "latency=100", "protocols=tcp",
+    "rtspsrc", "location=rtsp://admin:59In59In@192.168.3.27:554/stream1", "latency=100", "protocols=tcp",
     "!", "rtph264depay",
     "!", "mppvideodec",  # 替换成你实际设备支持的硬解插件
     "!", "jpegenc",
